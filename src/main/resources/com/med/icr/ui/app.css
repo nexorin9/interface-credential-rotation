@@ -1,0 +1,46 @@
+/* 接口账号密钥轮换系统 · 统一 JavaFX 样式表（不使用 WebView / 第三方图表库） */
+.root {
+    -icr-primary: #1F4E79;
+    -icr-alert: #C0392B;
+    -icr-warning: #E67E22;
+    -icr-normal: #27AE60;
+    -icr-bg: #F5F6F8;
+    -icr-card: #FFFFFF;
+    -icr-border: #E1E4E8;
+    -icr-line: #C7CDD4;
+    -fx-font-family: "Microsoft YaHei", "PingFang SC", sans-serif;
+    -fx-background-color: -icr-bg;
+}
+.card {
+    -fx-background-color: -icr-card;
+    -fx-border-color: -icr-border;
+    -fx-border-width: 1;
+    -fx-padding: 16;
+    -fx-background-radius: 4;
+}
+.column-title { -fx-font-size: 14px; -fx-text-fill: -icr-primary; -fx-font-weight: bold; }
+.key-number { -fx-font-size: 28px; -fx-font-family: "JetBrains Mono", monospace; }
+.numeric { -fx-font-family: "JetBrains Mono", monospace; }
+.table-view { -fx-cell-size: 26px; }
+.table-row-cell { -fx-table-cell-border-color: transparent; }
+.list-row { -fx-cell-size: 28px; }
+.grade-red { -fx-background-color: -icr-alert; }
+.grade-orange { -fx-background-color: -icr-warning; }
+.grade-grey { -fx-background-color: -icr-line; }
+.button {
+    -fx-background-color: -icr-primary;
+    -fx-text-fill: white;
+    -fx-padding: 6 12 6 12;
+}
+.button:hover { -fx-background-color: #2C6397; }
+.button:active { -fx-background-color: #173B5B; }
+.button:disabled { -fx-opacity: 0.45; }
+.button.loading { -fx-opacity: 0.7; }
+.text-field:hover, .check-box:hover { -fx-border-color: -icr-primary; }
+.text-field:disabled { -fx-opacity: 0.5; }
+.status-bar { -fx-background-color: -icr-card; -fx-border-color: -icr-border; -fx-padding: 8 16 8 16; }
+.status-near-reject { -fx-text-fill: -icr-warning; -fx-font-weight: bold; }
+.status-error { -fx-text-fill: -icr-alert; }
+.toast { -fx-background-color: -icr-card; -fx-border-color: -icr-normal; -fx-padding: 8 16 8 16; }
+.timeline-line { -fx-stroke: -icr-line; -fx-stroke-width: 2; }
+.timeline-dot { -fx-fill: -icr-primary; }

@@ -1,0 +1,22 @@
+{
+  "generator" : "SampleGenerator",
+  "seed" : 20261109,
+  "event_count" : 741,
+  "credential_count" : 8,
+  "minimal_sample_event_count" : 12,
+  "channel_code_count" : 3,
+  "channel_codes" : [ "CH-01", "CH-02", "CH-03" ],
+  "scene_counts" : {
+    "A" : 373,
+    "B" : 123,
+    "C" : 62,
+    "D" : 45,
+    "E" : 138
+  },
+  "fingerprint_duplicate_groups" : 2,
+  "no_fingerprint_events" : 220,
+  "duplicate_report_groups" : 69,
+  "public_source" : "fallback-synthetic",
+  "public_cert_count" : 24,
+  "identifiers" : "占位或类目，无拟真批号 / 住院号 / 处方号 / 患者化名"
+}

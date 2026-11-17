@@ -1,0 +1,47 @@
+# ---- 运行时环境与密钥（严禁入库）----
+.env
+.env.*
+!.env.example
+
+# ---- 构建产物 ----
+target/
+dist/
+build/
+*.class
+*.jar
+!.mvn/wrapper/maven-wrapper.jar
+dependency-reduced-pom.xml
+
+# ---- 本地运行状态（凭据台账缓存 / 事件归档 / 游标）----
+.localstate/
+logs/
+data/
+
+# ---- 临时与缓存 ----
+*.log
+*.tmp
+*.temp
+*.swp
+*~
+__pycache__/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.cache/
+
+# ---- 前端 / 其他构建缓存 ----
+node_modules/
+coverage/
+.next/
+.nuxt/
+.gradle/
+
+# ---- 编辑器 ----
+.idea/
+.vscode/
+*.iml
+
+# ---- round 元数据（不属于本项目发布内容）----
+score.json
+
+# ---- 注意：qrcode.jpg（README 关注区块配图）必须随仓库发布，故不在此排除 ----
